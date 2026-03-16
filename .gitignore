@@ -1,0 +1,76 @@
+# ========================
+# Node / Playwright
+# ========================
+
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Playwright artifacts
+playwright-report/
+test-results/
+blob-report/
+trace.zip
+*.trace
+
+# Generated tests (optional, comment if you want to version them)
+tests/generated/
+
+# ========================
+# Python
+# ========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Python environments
+.venv/
+venv/
+env/
+ENV/
+
+# Pip cache
+pip-wheel-metadata/
+
+# ========================
+# System files
+# ========================
+
+.DS_Store
+Thumbs.db
+
+# ========================
+# Logs
+# ========================
+
+*.log
+
+# ========================
+# IDE
+# ========================
+
+.vscode/
+.idea/
+
+# ========================
+# Data (optional)
+# ========================
+
+# If endpoint/testcase files are generated automatically
+# you may want to ignore them
+
+data/endpoints/
+data/testcases/
+
+# ========================
+# Secrets / configs
+# ========================
+
+.env
+.env.local
+.env.test
+.env.production
